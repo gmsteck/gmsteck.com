@@ -35,7 +35,7 @@ const fontLoader = new FontLoader();
 fontLoader.load('/fonts/helvetiker_regular.typeface.json', (font) => {
   const bevelSize = 0.02;
   const bevelThickness = 0.03;
-  const textGeometry = new TextGeometry("Gavin Steck's Portfolio Test 2", {
+  const textGeometry = new TextGeometry("Gavin Steck's Portfolio Test 3", {
     font,
     size: 0.5,
     depth: 0.2,
