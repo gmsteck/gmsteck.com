@@ -41,4 +41,4 @@ jobs:
         mkdir -p ~/.ssh
         echo "${{ secrets.PRIVATE_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-        ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa gmsteck@143.198.111.133 "sudo systemctl reload nginx"
+        ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa gmsteck@143.198.111.133 "sudo -n systemctl reload nginx"
