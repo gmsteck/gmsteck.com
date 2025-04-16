@@ -30,7 +30,7 @@ jobs:
         # -r: copy files recursively
         # --delete: delete extraneous files from dest dirs
         switches: -vzr --delete
-        path: /dist
+        path: /dist/
         remote_path: /var/www/html/gmsteck.com
         remote_host: 143.198.111.133
         remote_user: gmsteck
