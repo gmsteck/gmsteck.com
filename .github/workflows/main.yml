@@ -31,7 +31,7 @@ jobs:
       with:
         switches: -avzr --delete
         path: dist/
-        remote_path: /var/www/html/gmsteck.com
+        remote_path: /var/www/gmsteck.com
         remote_host: 143.198.111.133
         remote_user: gmsteck
         remote_key: ${{ secrets.PRIVATE_KEY }}
