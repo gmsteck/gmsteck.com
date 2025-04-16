@@ -34,5 +34,4 @@ jobs:
         remote_path: /var/www/html/
         remote_host: 143.198.111.133
         remote_user: gmsteck
-        remote_key: ${{ secrets.DEPLOY_KEY }}
-        ssh-private-key: ${{ secrets.PRIVATE_KEY }}
+        remote_key: ${{ secrets.PRIVATE_KEY }}
