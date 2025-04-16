@@ -35,3 +35,4 @@ jobs:
         remote_host: 143.198.111.133
         remote_user: gmsteck
         remote_key: ${{ secrets.DEPLOY_KEY }}
+        ssh-private-key: ${{ secrets.PRIVATE_KEY }}
