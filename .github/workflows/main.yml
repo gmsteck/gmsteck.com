@@ -26,7 +26,7 @@ jobs:
     - name: Build site
       run: npm run build  # Ensure this outputs to dist/
 
-    - name: Deploy dist/ to remote server
+    - name: Deploy to remote server
       uses: burnett01/rsync-deployments@4.1
       with:
         switches: -avzr --delete
